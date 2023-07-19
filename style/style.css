@@ -26,6 +26,14 @@
 
 /* padding rules */
 
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pl-1 {
+    padding-left: 1rem;
+}
+
 
 .pb-10 {
     padding-bottom: 10px;
@@ -118,6 +126,30 @@
 .nav_container div {
     padding-right: 1rem;
     padding-top: 1rem;
+}
+
+/* playlist section */
+
+.container_playlist {
+    padding: 2rem 1rem;
+}
+
+.card_playlist {
+    width: calc(100% / 6 - 1rem);
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_playlist .img {
+    height: 150px;
+    aspect-ratio: 1;
+    background-color: green;
+}
+
+.card_playlist .gender_music {
+    padding: 0.5rem 0;
 }
 
 
