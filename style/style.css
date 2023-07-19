@@ -26,6 +26,10 @@
 
 /* padding rules */
 
+.pl-05 {
+    padding-left: 0.5rem;
+}
+
 .pt-1 {
     padding-top: 1rem;
 }
@@ -97,6 +101,7 @@
     width: calc(100% - 225px);
     height: 100%;
     background-color: blue;
+    overflow: scroll;
 }
 
 /* effettua l upgrade */
@@ -136,14 +141,14 @@
 
 .card_playlist {
     width: calc(100% / 6 - 1rem);
-    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0.5rem;
 }
 
 .card_playlist .img {
-    height: 150px;
+    width: 100%;
     aspect-ratio: 1;
     background-color: green;
 }
@@ -159,6 +164,21 @@ footer {
     height: 100px;
     background-color: gray;
 }
+
+
+@media screen and (max-width: 1099px) {
+    .card_playlist {
+        width: calc(100% / 4 - 1rem);
+    }
+}
+
+
+@media screen and (max-width: 699px) {
+    .card_playlist {
+        width: calc(100% / 2 - 1rem);
+    }
+}
+
 
 @media screen and (max-width: 600px) {
 
@@ -177,3 +197,4 @@ footer {
         width: 100%;
     }
 }
+
