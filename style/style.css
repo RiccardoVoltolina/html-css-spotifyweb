@@ -3,3 +3,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common rules */
+
+.row {
+    display: flex;
+    height: 100%;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+/* padding rules */
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+
+/* main container */
+
+.main_container {
+    height: calc(100vh - 100px);
+}
+
+/* col side bar */
+
+.col_side_bar {
+    width: 225px;
+    background-color: black;
+    height: 100%;
+}
+
+/* side bar small section */
+
+.col_side_bar_sm {
+    background-color: red;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+}
+
+.spotify_logo {
+    background-color: green;
+    width: 150px;
+    height: 100%;
+}
+
+/* side bar main section */
+
+.col_side_bar_main {
+    background-color: yellow;
+    width: 100%;
+    height: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home_section div {
+    padding-top: 5px;
+}
+
+.playlist_section div {
+    padding-top: 10px;
+}
+
+/* col main */
+
+.col_main {
+    width: calc(100% - 225px);
+    height: 100%;
+    background-color: blue;
+}
+
+/* effettua l upgrade */
+
+.effettua_upgrade {
+    height: 100px;
+    background-color: yellow;
+}
+
+
+/* footer */
+
+footer {
+    height: 100px;
+    background-color: gray;
+}
