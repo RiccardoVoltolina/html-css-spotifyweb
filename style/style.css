@@ -38,6 +38,11 @@
     padding: 0.5rem;
 }
 
+.py-05 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
 .pb-05 {
     padding-bottom: 0.5rem;
 }
@@ -267,9 +272,13 @@ footer {
         display: none;
     }
 
+ 
+
     .d-none-601 {
         display: block;
-        width: 40px;
+        width: 100%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     
    .col_side_bar_sm div {
@@ -284,6 +293,22 @@ footer {
 
    .p-0-600 {
     padding: 0;
+   }
+
+   .col_side_bar .col_side_bar_main {
+    padding: 0;
+   }
+
+   .col_side_bar_main .spotify_logo {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+   }
+
+   .center-600-view {
+    width: 100%;
+    justify-content: center;
+    display: flex;
    }
 }
 
