@@ -44,6 +44,10 @@
     color: var(--spoty-secondary);
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 /* padding rules */
 
@@ -154,14 +158,18 @@
     padding-right: 0.5rem;
 }
 
+.libreria {
+    width: 25px;
+}
+
 .playlist_section div {
     padding-top: 10px;
 }
 
 .plus_item {
     color: #000000;
-    padding: 10px;
-    background-color: var(--spoty-text-strong);
+    padding: 0.5rem;
+    background-color: #a3a3a3;
     font-size: 20px;
 }
 
@@ -219,6 +227,10 @@
     padding: 2rem 1rem;
 }
 
+.img img {
+    max-width: 100%;
+}
+
 .card_playlist {
     width: calc(100% / 6 - 1rem);
     display: flex;
@@ -230,14 +242,19 @@
 .card_playlist .img {
     width: 100%;
     aspect-ratio: 1;
-    background-color: green;
 }
 
 .card_playlist .gender_music {
     padding: 0.5rem 0;
+    text-align: center;
 }
 
-.popolari .img {
+.card_playlist .subtitle {
+    text-align: center;
+    font-size: 15px;
+}
+
+.popolari img {
     border-radius: 50%;
 }
 
