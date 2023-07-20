@@ -24,15 +24,16 @@
                 <div class="row direction-column space-between">
                     <div class="col_side_bar_main">
                         <div class="spotify_logo p-1">
-                            <img src="./img/logo.svg" alt="">
+                            <img class="d-none-600" src="./img/logo.svg" alt="">
+                            <img class="d-none-601" src="./img/logo-small.svg" alt="">
                         </div>
                         <div class="home_section pb10">
-                            <div><i class="fa-solid fa-house"></i> Home</div>
-                            <div><i class="fa-solid fa-magnifying-glass"></i> cerca</div>
-                            <div><i class="fa-solid fa-grip-lines-vertical"></i> libreria</div>
+                            <div><i class="fa-solid fa-house"></i> <div class="d-none-600">Home</div></div>
+                            <div><i class="fa-solid fa-magnifying-glass"></i> <div class="d-none-600">cerca</div></div>
+                            <div><i class="fa-solid fa-grip-lines-vertical"></i> <div class="d-none-600">libreria</div></div>
                         </div>
 
-                        <div class="playlist_section">
+                        <div class="playlist_section d-none-600">
                             <h4 class="pt-1">Playlist</h4>
                             <div><i class="fa-solid fa-plus plus_item"></i> crea playlist</div>
                             <div>nome playlist</div>
@@ -46,11 +47,11 @@
                     </div>
                     <div class="col_side_bar_sm">
                         <div class="installa_app">
-                            <div class="pb-10 d-flex align-center"><i class="fa-regular fa-circle-down pr-05"></i> installa app</div>
-                            <hr>
+                            <div class="pb-10 d-flex align-center"><i class="fa-regular fa-circle-down pr-05 p-0-600"></i><div class="d-none-600">installa app</div></div>
+                            <hr class="d-none-600">
                             <div class="pt-10">
                                 <div class="d-flex align-center">
-                                    <i class="fa-solid fa-user-tie avatar_item pr-05"></i> <div class="pl-05">John Doe</div> 
+                                    <i class="fa-solid fa-user-tie avatar_item pr-05"></i> <div class="pl-05"><div class="d-none-600">John Doe</div></div> 
                                 </div>
                             </div>
                         </div>

@@ -113,6 +113,10 @@
     width: 150px;
 }
 
+.d-none-601 {
+    display: none;
+}
+
 /* side bar main section */
 
 .col_side_bar_main {
@@ -124,6 +128,12 @@
 
 .home_section div {
     padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.home_section i {
+    padding-right: 0.5rem;
 }
 
 .playlist_section div {
@@ -151,6 +161,8 @@
     background-color: yellow;
     display: flex;
     justify-content: end;
+    position: sticky;
+    top: 0;
 }
 
 .effettua_upgrade_button {
@@ -246,5 +258,32 @@ footer {
     .nav_container {
         width: 100%;
     }
+
+    .d-none-600 {
+        display: none;
+    }
+
+    .home_section .d-none-600 {
+        display: none;
+    }
+
+    .d-none-601 {
+        display: block;
+        width: 40px;
+    }
+    
+   .col_side_bar_sm div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .col_side_bar_sm .d-none-600 {
+    display: none;
+   }
+
+   .p-0-600 {
+    padding: 0;
+   }
 }
 
