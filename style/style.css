@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --spoty-upgrade:#000000e8;
+    --spoty-left-col:#000000;
+    --spoty-footer:#282828;
+    --spoty-text-strong:#a3a3a3;
+    --spoty-secondary:#ffffff;
+    --spoty-col-main:#141922
+}
+
 /* common rules */
 
 .row {
@@ -29,6 +38,10 @@
 
 .space-between {
     justify-content: space-between;
+}
+
+.color-secondary {
+    color: var(--spoty-secondary);
 }
 
 
@@ -91,15 +104,16 @@
 /* col side bar */
 
 .col_side_bar {
+    color: var(--spoty-text-strong);
     width: 225px;
-    background-color: black;
+    background-color: var(--spoty-left-col);
     height: 100%;
+    padding-left: 1.5rem;
 }
 
 /* side bar small section */
 
 .col_side_bar_sm {
-    background-color: red;
     width: 100%;
     padding: 0.5rem;
 }
@@ -125,7 +139,6 @@
 /* side bar main section */
 
 .col_side_bar_main {
-    background-color: yellow;
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
@@ -146,24 +159,26 @@
 }
 
 .plus_item {
+    color: #000000;
     padding: 10px;
-    background-color: gray;
+    background-color: var(--spoty-text-strong);
     font-size: 20px;
 }
 
 /* col main */
 
 .col_main {
+    color: var(--spoty-text-strong);
+    background-color: var(--spoty-col-main);
     width: calc(100% - 225px);
     height: 100%;
-    background-color: blue;
     overflow: auto;
 }
 
 /* effettua l upgrade */
 
 .effettua_upgrade {
-    background-color: yellow;
+    background-color: var(--spoty-upgrade);
     display: flex;
     justify-content: end;
     position: sticky;
@@ -171,7 +186,15 @@
 }
 
 .effettua_upgrade_button {
-    padding: 1.5rem;
+    padding: 1rem;
+}
+
+.effettua_upgrade_button button {
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 0.8rem 2.5rem;
+    background-color: black;
+    color: white;
 }
 
 /* nav section */
@@ -181,7 +204,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: red;
     width: 80%;
     margin: auto;
 }
@@ -225,7 +247,7 @@
 
 footer {
     height: 80px;
-    background-color: gray;
+    background-color: var(--spoty-footer);
     width: 100%;
     bottom: 0;
     left: 0;
@@ -258,6 +280,7 @@ footer {
 
     .col_side_bar {
         width: 50px;
+        padding: 0;
     }
 
     .nav_container {
