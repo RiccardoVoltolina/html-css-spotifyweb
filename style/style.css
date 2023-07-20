@@ -23,11 +23,23 @@
     flex-wrap: wrap;
 }
 
+.align-center {
+    align-items: center;
+}
+
 
 /* padding rules */
 
 .p-05 {
     padding: 0.5rem;
+}
+
+.pb-05 {
+    padding-bottom: 0.5rem;
+}
+
+.pr-05 {
+    padding-right: 0.5rem;
 }
 
 .pl-05 {
@@ -76,7 +88,8 @@
     background-color: red;
     height: 10%;
     width: 100%;
-    padding: 10px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .spotify_logo {
@@ -101,6 +114,12 @@
 
 .playlist_section div {
     padding-top: 10px;
+}
+
+.plus_item {
+    padding: 10px;
+    background-color: gray;
+    font-size: 20px;
 }
 
 /* col main */

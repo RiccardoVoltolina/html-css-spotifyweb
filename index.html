@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
+    integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=='
+    crossorigin='anonymous' referrerpolicy='no-referrer' />
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -18,19 +24,19 @@
                 <div class="row direction-column">
                     <div class="col_side_bar_sm">
                         <div class="spotify_logo">
-
+                            <img src="./img/logo.svg" alt="">
                         </div>
                     </div>
                     <div class="col_side_bar_main">
                         <div class="home_section pb10">
-                            <div>Home</div>
-                            <div>cerca</div>
-                            <div>libreria</div>
+                            <div><i class="fa-solid fa-house"></i> Home</div>
+                            <div><i class="fa-solid fa-magnifying-glass"></i> cerca</div>
+                            <div><i class="fa-solid fa-grip-lines-vertical"></i> libreria</div>
                         </div>
 
                         <div class="playlist_section">
-                            <h4>Playlist</h4>
-                            <div>crea playlist</div>
+                            <h4 class="pt-1">Playlist</h4>
+                            <div><i class="fa-solid fa-plus plus_item"></i> crea playlist</div>
                             <div>nome playlist</div>
                             <div>nome playlist</div>
                             <div>nome playlist</div>
@@ -42,9 +48,11 @@
                     </div>
                     <div class="col_side_bar_sm">
                         <div class="installa_app">
-                            <div class="pb-10">installa app</div>
+                            <div class="pb-10 d-flex align-center"><i class="fa-regular fa-circle-down pr-05"></i> installa app</div>
                             <hr>
-                            <div class="pt-10">John Doe</div>
+                            <div class="pt-10 pb-05">
+                                <i class="fa-solid fa-user-tie"></i> John Doe
+                            </div>
                         </div>
                     </div>
                 </div>
