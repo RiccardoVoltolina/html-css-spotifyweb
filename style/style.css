@@ -299,6 +299,7 @@ footer {
 
 .col_footer_sm {
     height: 100%;
+    width: 260px;
 }
 
 .col_footer_bg {
@@ -388,7 +389,7 @@ footer {
 .container_right_col_footer {
     display: flex;
     align-items: center;
-    align-items: center;
+    justify-content: end;
     height: 100%;
     margin-right: 0.5rem;
 }
@@ -447,7 +448,9 @@ footer {
     .col_main {
         width: 100%;
     }
-
+    .like {
+        padding-left: 1rem;
+    }
     /* side bar */
 
 
