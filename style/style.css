@@ -143,6 +143,10 @@ a {
     height: calc(100vh - 80px);
 }
 
+.main_container a:hover {
+    color: var(--spoty-secondary);
+}
+
 /* col side bar */
 
 .col_side_bar {
@@ -240,6 +244,10 @@ a {
     padding: 1rem;
 }
 
+.effettua_upgrade_button button:hover {
+    transform: scale(1.1);
+}
+
 .effettua_upgrade_button button {
     border: 1px solid white;
     border-radius: 2rem;
@@ -257,6 +265,10 @@ a {
     justify-content: center;
     width: 80%;
     margin: auto;
+}
+
+.nav_container a:hover {
+    color: var(--spoty-secondary);
 }
 
 .border {
@@ -411,6 +423,10 @@ footer {
 .audio_commands a {
     color: var(--spoty-secondary);
     font-size: 25px;
+}
+
+.transform_big:hover {
+    transform: scale(1.1);
 }
 
 .audio_vol_big {
