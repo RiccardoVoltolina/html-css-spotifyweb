@@ -86,6 +86,14 @@ a {
     padding-bottom: 1rem;
 }
 
+.pr-1_5 {
+    padding-right: 1.5rem;
+}
+
+.pl-1_5 {
+    padding-left: 1.5rem;
+}
+
 .pl-1 {
     padding-left: 1rem;
 }
@@ -216,6 +224,7 @@ a {
     padding: 0.8rem 2.5rem;
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 
 /* nav section */
@@ -276,7 +285,6 @@ a {
 /* footer */
 
 footer {
-    height: 80px;
     background-color: var(--spoty-footer);
     width: 100%;
     bottom: 0;
@@ -284,10 +292,86 @@ footer {
     position: fixed;
 }
 
+.col_footer_sm {
+    border: 1px solid white;
+    width: 20%;
+}
+
+.col_footer_bg {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome_brano {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.nome_brano img {
+    width: 50px;
+}
+
+.nome_brano_text {
+    padding-left: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.like {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_volume_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.volume_bg {
+    width: 50%;
+    height: 2px;
+    background-color: red;
+
+}
+
+.commands {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 20px;
+    background-color: green;
+}
+
+
+
+
+
+
+/* start media rules */
+
 
 @media screen and (max-width: 1099px) {
     .card_playlist {
         width: calc(100% / 4 - 1rem);
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .like {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .like i {
+        padding: 3px 0.5rem;
     }
 }
 
