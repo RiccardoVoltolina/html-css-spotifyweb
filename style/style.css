@@ -61,7 +61,7 @@ a {
     height: 100%;
 }
 
-.font-small {
+.font-small  {
     font-size: 10px;
 }
 
@@ -284,11 +284,15 @@ a {
     padding: 2rem 1rem;
 }
 
+.img {
+    cursor: pointer;
+}
+
 .img img {
     max-width: 100%;
 }
 
-.img:hover {
+.img:hover img {
     filter: opacity(0.5);
 }
 
@@ -364,6 +368,12 @@ footer {
     padding: 1rem 0.5rem;
 }
 
+.brano_nome_footer:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: var(--spoty-secondary);
+}
+
 .nome_brano img {
     width: 50px;
 }
@@ -378,6 +388,10 @@ footer {
 
 .like {
     display: flex;
+}
+
+.like i:hover {
+    color: var(--spoty-secondary);
 }
 
 .container_col_footer_big {
