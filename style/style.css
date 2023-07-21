@@ -287,6 +287,7 @@ a {
 footer {
     background-color: var(--spoty-footer);
     width: 100%;
+    height: 80px;
     bottom: 0;
     left: 0;
     position: fixed;
@@ -294,15 +295,15 @@ footer {
 
 .col_footer_sm {
     border: 1px solid white;
-    width: 20%;
+    width: calc(20% - 1.5rem);
+    height: 100%;
 }
 
 .col_footer_bg {
-    width: 60%;
+    width: calc(80% - 1.5rem);
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
 .nome_brano {
@@ -325,30 +326,55 @@ footer {
 
 .like {
     display: flex;
-    flex-wrap: wrap;
 }
 
-.container_volume_bg {
+.container_col_footer_big {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+}
+
+.audio_commands {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;    
+}
+
+.audio_commands a {
+    color: var(--spoty-secondary);
+    font-size: 25px;
+}
+
+.audio_vol_big {
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inside_volume_bar {
+    background-color: blue;
+    height: 3px;
+    width: 90%;
+}
+
+.audio_vol_big span {
+    padding: 0 1rem;
+}
+
+.main_volume_bar {
+    height: 3px;
+    background-color: red;
     width: 80%;
 }
 
-.volume_bg {
-    width: 50%;
-    height: 2px;
-    background-color: red;
 
-}
 
-.commands {
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    height: 20px;
-    background-color: green;
-}
+
+
+
 
 
 
