@@ -13,6 +13,10 @@
     --spoty-col-main:#141922
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* common rules */
 
 .row {
@@ -55,6 +59,10 @@ a {
 
 .height-100 {
     height: 100%;
+}
+
+.font-small {
+    font-size: 10px;
 }
 
 
@@ -134,14 +142,13 @@ a {
     width: 225px;
     background-color: var(--spoty-left-col);
     height: 100%;
-    padding-left: 1.5rem;
 }
 
 /* side bar small section */
 
 .col_side_bar_sm {
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .avatar_item {
@@ -153,6 +160,7 @@ a {
 
 .spotify_logo {
     width: 150px;
+    padding-left: 1rem;
 }
 
 .d-none-601 {
@@ -167,7 +175,6 @@ a {
 
 .col_side_bar_main {
     width: 100%;
-    padding-left: 10px;
     padding-right: 10px;
 }
 
@@ -181,10 +188,13 @@ a {
     width: 25px;
 }
 
-
+.border_left {
+    border-left: 2px solid lightgreen;
+}
 
 .playlist_section div {
     padding-top: 1.5rem;
+    font-size: 13px;
 }
 
 .plus_item {
@@ -237,10 +247,23 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     width: 80%;
     margin: auto;
 }
+
+.border {
+    border-bottom: 2px solid lightgreen;
+    width: 50%;
+}
+
+.in_evidenza {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .nav_container div {
     padding-right: 1rem;
@@ -364,7 +387,7 @@ footer {
     width: 90%;
 }
 
-.audio_vol_big span {
+.audio_vol_big strong {
     padding: 0 1rem;
 }
 
@@ -377,7 +400,7 @@ footer {
 .volume_bar_fix {
     height: 3px;
     background-color: #5a5a5a;
-    width: 70px;
+    width: 100px;
 }
 
 .vol_bar_inside {

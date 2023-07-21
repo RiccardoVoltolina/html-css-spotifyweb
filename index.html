@@ -10,6 +10,9 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
     integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=='
     crossorigin='anonymous' referrerpolicy='no-referrer' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -28,8 +31,8 @@
                             <img class="d-none-601" src="./img/logo-small.svg" alt="">
                         </div>
                         <div class="home_section pb10">
-                            <div>
-                                <div class="center-600-view">
+                            <div class="border_left">
+                                <div class="center-600-view pl-1">
                                     <a href="">
                                         <img class="color-secondary" src="./img/home.svg" alt="">
                                     </a>
@@ -38,23 +41,23 @@
                             </div>
                             <div>
                                 <div class="center-600-view">
-                                    <a href="">
+                                    <a class="pl-1" href="">
                                         <img class="color-secondary" src="./img/search.svg" alt="">
                                     </a>
                                 </div>
-                                <div class="d-none-600 color-secondary"><a class="pl-5" href="">Search</a></div>
+                                <div class="d-none-600 color-secondary"><a class="pl-5" href="">Cerca</a></div>
                             </div>
                             <div>
                                 <div class="center-600-view">
-                                    <a href="">
+                                    <a class="pl-1" href="">
                                         <img class="libreria" src="./img/libreria.svg" alt=""> 
                                     </a>
                                 </div>
-                                <div class="d-none-600"><a class="pl-5" href="">libreria</a></div>
+                                <div class="d-none-600"><a class="pl-5" href="">La tua libreria</a></div>
                             </div>
                         </div>
 
-                        <div class="playlist_section d-none-600">
+                        <div class="playlist_section pl-1 d-none-600">
                             <h4 class="pt-1 color-secondary">Playlist</h4>
                             <div><i class="fa-solid fa-plus plus_item"></i> <a class="pl-5" href="">Crea Playlist</a></div>
                             <div><a href="">Nome Playlist</a></div>
@@ -101,7 +104,10 @@
 
                 <nav>
                     <div class="nav_container">
-                        <div><a href="">IN EVIDENZA</a></div>
+                        <a class="in_evidenza">
+                            IN EVIDENZA
+                            <div class="border"></div>
+                        </a>
                         <div><a href="">PODCAST</a></div>
                         <div><a href="">CLASSIFICHE</a></div>
                         <div><a href="">GENERI E MOOD</a></div>
@@ -119,33 +125,33 @@
                     <div class="row pt-1 flex-wrap">
                         <div class="card_playlist">
                             <div class="img"><img src="./img/metal_lifting.jpg" alt=""></div>
-                            <div class="gender_music color-secondary">Heavy Metal</div>
+                            <strong class="gender_music color-secondary">Heavy Metal</strong>
                             <div class="subtitle">Subtitle</div>
                         </div>
 
                         <div class="card_playlist">
                             <div class="img"><img src="./img/stranger.jpeg" alt=""></div>
-                            <div class="gender_music color-secondary">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</div>
+                            <strong class="gender_music color-secondary">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</strong>
                             <div class="subtitle">Kyle Dixon & Micheal Stein</div>
                         </div>
                         <div class="card_playlist">
                             <div class="img"><img src="./img/aquietplace.jpeg" alt=""></div>
-                            <div class="gender_music color-secondary">A quiet place</div>
+                            <strong class="gender_music color-secondary">A quiet place</strong>
                             <div class="subtitle">Subtitle</div>
                         </div>
                         <div class="card_playlist">
                             <div class="img"><img src="./img/split.jpeg" alt=""></div>
-                            <div class="gender_music color-secondary">Split</div>
+                            <strong class="gender_music color-secondary">Split</strong>
                             <div class="subtitle">Subtitle</div>
                         </div>
                         <div class="card_playlist">
                             <div class="img"><img src="./img/cure.jpeg" alt=""></div>
-                            <div class="gender_music color-secondary">A cure for wellness</div>
+                            <strong class="gender_music color-secondary">A cure for wellness</strong>
                             <div class="subtitle">Subtitle</div>
                         </div>
                         <div class="card_playlist">
                             <div class="img"><img src="./img/sinister.jpeg" alt=""></div>
-                            <div class="gender_music color-secondary">Sinister</div>
+                            <strong class="gender_music color-secondary">Sinister</strong>
                             <div class="subtitle">Subtitle</div>
                         </div>
                 </div>
@@ -197,8 +203,8 @@
                     <img src="./img/sinister.jpeg" alt="">
                     <div class="nome_brano_text">
                         <div>
-                            <div class="color-secondary">Sinister</div>
-                            <div>Brano Nome</div>
+                            <div class="color-secondary"><h5>Sinister</h5></div>
+                            <div class="font-small">Brano Nome</div>
                         </div>
                         <div class="like">
                             <i class="fa-regular fa-heart"></i>
@@ -217,11 +223,11 @@
                         <a href=""><i class="fa-solid fa-arrow-rotate-right"></i></a>
                     </div>
                     <div class="audio_vol_big">
-                        <span>0:25</span>
+                        <strong class="font-small color-secondary">0:25</strong></span>
                         <div class="volume_bar">
                             <div class="vol_bar_inside"></div>
                         </div>
-                        <span>4:35</span>
+                        <strong class="font-small color-secondary">4:35</strong>
                     </div>
                 </div>    
             </div>
