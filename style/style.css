@@ -415,6 +415,7 @@ footer {
 }
 
 .audio_commands {
+    padding-bottom: 0.5rem;
     display: flex;
     min-width: 200px;
     justify-content: space-between;    
@@ -423,6 +424,10 @@ footer {
 .audio_commands a {
     color: var(--spoty-secondary);
     font-size: 25px;
+}
+
+.transform_big {
+    font-size: 30px;
 }
 
 .transform_big:hover {
@@ -474,7 +479,7 @@ footer {
 }
 
 .container_right_col_footer a {
-    padding-right: 0.5rem;
+    padding-right: 1rem;
 }
 
 
