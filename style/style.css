@@ -65,6 +65,10 @@ a {
     font-size: 10px;
 }
 
+.font13 {
+    font-size: 13px;
+}
+
 
 /* padding rules */
 
@@ -490,6 +494,14 @@ footer {
         display: none;
     }
 
+    .home_section div {
+        padding-left: 0;
+    }
+
+    .home_section .pl-1 {
+        padding-left: 0;
+    }
+
     .home_section .d-none-600 {
         display: none;
     }
@@ -499,8 +511,7 @@ footer {
     .d-none-601 {
         display: block;
         width: 100%;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        
     }
     
    .col_side_bar_sm div {
@@ -525,6 +536,7 @@ footer {
     width: 100%;
     justify-content: center;
     display: flex;
+    padding: 0.5rem;
    }
 
    .center-600-view {
