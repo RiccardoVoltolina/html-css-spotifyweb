@@ -456,6 +456,12 @@ footer {
     height: 3px;
     background-color: #5a5a5a;
     width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.volume_bar:hover {
+    cursor: pointer;
 }
 
 .volume_bar_fix {
@@ -468,6 +474,23 @@ footer {
     height: 3px;
     width: 25%;
     background-color: #c1c1c1;
+}
+
+.volume_bar .vol_bar_inside:hover {
+    background-color: lightgreen;
+}
+
+.volume_bar .circle_volume {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: var(--spoty-secondary);
+    display: none;
+}
+
+.volume_bar:hover .circle_volume {
+    display: block;
+    cursor: pointer;
 }
 
 .container_right_col_footer {
