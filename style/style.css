@@ -48,6 +48,11 @@
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: var(--spoty-text-strong);
+}
+
 
 /* padding rules */
 
@@ -90,6 +95,11 @@
 }
 
 
+.pl-5 {
+    padding-left: 5px;
+}
+
+
 .pb-10 {
     padding-bottom: 10px;
 }
@@ -126,11 +136,8 @@
     padding: 4px;
     border-radius: 50%;
     background-color: gray;
-    font-size: 25px;
+    width: 30px;    
 }
-
-
-
 
 .spotify_logo {
     width: 150px;
@@ -138,6 +145,10 @@
 
 .d-none-601 {
     display: none;
+}
+
+.installa_app hr {
+    width: 90%;
 }
 
 /* side bar main section */
@@ -154,16 +165,14 @@
     align-items: center;
 }
 
-.home_section i {
-    padding-right: 0.5rem;
-}
-
-.libreria {
+.home_section img  {
     width: 25px;
 }
 
+
+
 .playlist_section div {
-    padding-top: 10px;
+    padding-top: 1.5rem;
 }
 
 .plus_item {
@@ -171,6 +180,10 @@
     padding: 0.5rem;
     background-color: #a3a3a3;
     font-size: 20px;
+}
+
+.font-size-10 {
+    font-size: 10px;
 }
 
 /* col main */
