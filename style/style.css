@@ -69,6 +69,10 @@ a {
     font-size: 13px;
 }
 
+.relative {
+    position: relative;
+}
+
 
 /* padding rules */
 
@@ -282,6 +286,24 @@ a {
 
 .img img {
     max-width: 100%;
+}
+
+.img:hover {
+    filter: opacity(0.5);
+}
+
+.layover {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    font-size: 50px;
+    color: var(--spoty-secondary);
+    display: none;
+}
+
+.img:hover .layover {
+    display: block;
 }
 
 .card_playlist {
