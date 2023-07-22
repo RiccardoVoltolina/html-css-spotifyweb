@@ -201,7 +201,7 @@ a {
 }
 
 .border_left {
-    border-left: 2px solid lightgreen;
+    border-left: 2px solid #bcf060;
 }
 
 .playlist_section div {
@@ -272,7 +272,7 @@ a {
 }
 
 .border {
-    border-bottom: 2px solid lightgreen;
+    border-bottom: 2px solid #bcf060;
     width: 50%;
 }
 
@@ -468,6 +468,9 @@ footer {
     height: 3px;
     background-color: #5a5a5a;
     width: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .vol_bar_inside {
@@ -476,11 +479,11 @@ footer {
     background-color: #c1c1c1;
 }
 
-.volume_bar .vol_bar_inside:hover {
-    background-color: lightgreen;
+.volume_bar:hover .vol_bar_inside, .volume_bar_fix:hover .vol_bar_inside {
+    background-color: #bcf060;
 }
 
-.volume_bar .circle_volume {
+.volume_bar .circle_volume, .volume_bar_fix .circle_volume {
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -488,7 +491,7 @@ footer {
     display: none;
 }
 
-.volume_bar:hover .circle_volume {
+.volume_bar:hover .circle_volume, .volume_bar_fix:hover .circle_volume {
     display: block;
     cursor: pointer;
 }
@@ -564,6 +567,7 @@ footer {
     .col_side_bar {
         width: 50px;
         padding: 0;
+        overflow: auto;
     }
 
     .nav_container {
