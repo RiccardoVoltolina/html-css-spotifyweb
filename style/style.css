@@ -204,6 +204,11 @@ a {
     border-left: 2px solid #bcf060;
 }
 
+.playlist_section {
+    height: 200px;
+    overflow-y: auto;
+}
+
 .playlist_section div {
     padding-top: 1.5rem;
     font-size: 13px;
